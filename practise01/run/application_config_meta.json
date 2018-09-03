@@ -1,0 +1,255 @@
+{
+  "keys": "/Users/xm/ShareProject/eggPractise/practise01/config/config.default.js",
+  "session": {
+    "maxAge": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "key": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "httpOnly": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "encrypt": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+      "useSession": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+      "cookieName": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+      "sessionName": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+      "headerName": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+      "bodyName": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+      "queryName": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+      "value": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.local.js",
+      "maxAge": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+      "value": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+      "value": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+      "policy": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js",
+      "checkAddress": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "callback": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "csrf": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "templatePath": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "dirs": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "queryField": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "cookieField": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-watcher@3.0.0@egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-watcher@3.0.0@egg-watcher/config/config.default.js",
+      "development": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-watcher@3.0.0@egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-multipart@2.1.0@egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-multipart@2.1.0@egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-multipart@2.1.0@egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-multipart@2.1.0@egg-multipart/config/config.default.js",
+    "fields": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-multipart@2.1.0@egg-multipart/config/config.default.js",
+    "fileSize": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-multipart@2.1.0@egg-multipart/config/config.default.js",
+    "files": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-multipart@2.1.0@egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-multipart@2.1.0@egg-multipart/config/config.default.js",
+    "whitelist": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-multipart@2.1.0@egg-multipart/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-development@2.4.1@egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-development@2.4.1@egg-development/config/config.default.js",
+    "fastReady": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-development@2.4.1@egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-development@2.4.1@egg-development/config/config.default.js",
+    "overrideDefault": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-development@2.4.1@egg-development/config/config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-schedule@3.4.0@egg-schedule/config/config.default.js",
+      "file": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-schedule@3.4.0@egg-schedule/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
+    "dir": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
+    "dynamic": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
+    "preload": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
+    "buffer": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
+    "maxFiles": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js",
+    "cache": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-view@2.1.0@egg-view/config/config.local.js",
+    "defaultExtension": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js",
+    "mapping": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js"
+  },
+  "env": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+  "name": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+  "proxy": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+  "protocolHeaders": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+  "ipHeaders": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+  "hostHeaders": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "version": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "description": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "main": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "scripts": {
+      "test": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+      "dev": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+      "url": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js"
+    },
+    "author": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "license": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "bugs": {
+      "url": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js"
+    },
+    "homepage": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+  "HOME": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+  "rundir": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "notFound": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "sitefile": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "middlewares": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "httpClient": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "encoding": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "formLimit": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "jsonLimit": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "strict": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+      "depth": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+      "parameterLimit": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "encoding": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "env": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "level": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "consoleLevel": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "outputJSON": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "buffer": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "appLogName": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "coreLogName": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "agentLogName": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "errorLogName": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+      "maxSockets": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+      "maxSockets": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "logging": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+  "workerStartTimeout": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+      "port": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+      "hostname": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js",
+    "responseTimeout": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js"
+  },
+  "onClientError": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/config.default.js"
+}
