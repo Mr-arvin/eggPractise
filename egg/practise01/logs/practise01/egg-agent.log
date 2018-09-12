@@ -21,3 +21,15 @@
 2018-09-03 23:48:49,055 INFO 14162 [egg:core] dump config after load, 5ms
 2018-09-03 23:48:49,090 INFO 14162 [egg-watcher:agent] watcher start success
 2018-09-03 23:48:49,114 INFO 14162 [egg:core] dump config after ready, 3ms
+2018-09-11 22:03:57,100 INFO 18284 [egg:logger] init all loggers with options: {"dir":"/Users/xm/ShareProject/eggPractise/practise01/logs/practise01","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"practise01-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-09-11 22:03:57,170 INFO 18284 [egg:core] dump config after load, 4ms
+2018-09-11 22:03:57,208 INFO 18284 [egg-watcher:agent] watcher start success
+2018-09-11 22:03:57,231 INFO 18284 [egg:core] dump config after ready, 3ms
+2018-09-12 08:47:24,226 INFO 18772 [egg:logger] init all loggers with options: {"dir":"/Users/xm/ShareProject/eggPractise/practise01/logs/practise01","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"practise01-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-09-12 08:47:24,306 INFO 18772 [egg:core] dump config after load, 4ms
+2018-09-12 08:47:24,345 INFO 18772 [egg-watcher:agent] watcher start success
+2018-09-12 08:47:24,366 INFO 18772 [egg:core] dump config after ready, 2ms
+2018-09-12 23:24:11,848 INFO 22934 [egg:logger] init all loggers with options: {"dir":"/Users/xm/ShareProject/eggPractise/practise01/logs/practise01","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"practise01-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-09-12 23:24:11,935 INFO 22934 [egg:core] dump config after load, 5ms
+2018-09-12 23:24:11,978 INFO 22934 [egg-watcher:agent] watcher start success
+2018-09-12 23:24:12,001 INFO 22934 [egg:core] dump config after ready, 3ms

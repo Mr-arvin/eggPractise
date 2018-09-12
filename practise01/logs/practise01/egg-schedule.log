@@ -1,4 +1,0 @@
-2018-09-03 22:56:32,570 INFO 12721 [Timer] /Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-logrotator@3.0.3@egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-09-04 00:00:00.000
-2018-09-03 22:56:32,571 INFO 12721 [Timer] /Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-logrotator@3.0.3@egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-09-04 00:00:01.000
-2018-09-03 23:48:49,726 INFO 14162 [Timer] /Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-logrotator@3.0.3@egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-09-04 00:00:00.000
-2018-09-03 23:48:49,727 INFO 14162 [Timer] /Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-logrotator@3.0.3@egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-09-04 00:00:01.000
