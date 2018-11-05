@@ -86,25 +86,26 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-onerror@2.1.0@egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-onerror@2.1.0@egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-session@3.1.0@egg-session/config/locales",
-        "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security/config/locales",
-        "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/locales",
-        "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-onerror@2.1.0@egg-onerror/config/locales",
-        "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-i18n@2.0.0@egg-i18n/config/locales",
-        "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-watcher@3.0.0@egg-watcher/config/locales",
-        "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-multipart@2.1.0@egg-multipart/config/locales",
-        "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-development@2.4.1@egg-development/config/locales",
-        "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-schedule@3.4.0@egg-schedule/config/locales",
-        "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/locales",
-        "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-static@2.1.1@egg-static/config/locales",
-        "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-view@2.1.0@egg-view/config/locales",
-        "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/locales",
-        "/Users/xm/ShareProject/eggPractise/practise01/config/locales"
+        "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-session@3.1.0@egg-session/config/locales",
+        "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-security@2.4.0@egg-security/config/locales",
+        "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/locales",
+        "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-onerror@2.1.0@egg-onerror/config/locales",
+        "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-i18n@2.0.0@egg-i18n/config/locales",
+        "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-watcher@3.1.0@egg-watcher/config/locales",
+        "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-schedule@3.4.0@egg-schedule/config/locales",
+        "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-multipart@2.2.1@egg-multipart/config/locales",
+        "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-development@2.4.1@egg-development/config/locales",
+        "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-logrotator@3.0.4@egg-logrotator/config/locales",
+        "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-static@2.1.1@egg-static/config/locales",
+        "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-view@2.1.0@egg-view/config/locales",
+        "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/locales",
+        "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg@2.12.0@egg/config/locales",
+        "/Users/xm/ShareProject/eggPractise/egg/practise01/config/locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -114,11 +115,18 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-watcher@3.0.0@egg-watcher/lib/event-sources/default",
-        "development": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-watcher@3.0.0@egg-watcher/lib/event-sources/development"
+        "default": "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/default",
+        "development": "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/development"
+      }
+    },
+    "customLogger": {
+      "scheduleLogger": {
+        "consoleLevel": "NONE",
+        "file": "/Users/xm/ShareProject/eggPractise/egg/practise01/logs/practise01/egg-schedule.log"
       }
     },
     "multipart": {
+      "mode": "stream",
       "autoFields": false,
       "defaultCharset": "utf8",
       "fieldNameSize": 100,
@@ -127,7 +135,11 @@
       "fileSize": 10485760,
       "files": 10,
       "fileExtensions": [],
-      "whitelist": null
+      "whitelist": null,
+      "tmpdir": "/var/folders/hf/3ssz_v6d7jxgw0t6122ty2tm0000gn/T/egg-multipart-tmp/practise01",
+      "cleanSchedule": {
+        "cron": "0 30 4 * * *"
+      }
     },
     "development": {
       "watchDirs": [],
@@ -135,12 +147,6 @@
       "fastReady": false,
       "reloadOnDebug": true,
       "overrideDefault": false
-    },
-    "customLogger": {
-      "scheduleLogger": {
-        "consoleLevel": "NONE",
-        "file": "/Users/xm/ShareProject/eggPractise/practise01/logs/practise01/egg-schedule.log"
-      }
     },
     "logrotator": {
       "filesRotateByHour": null,
@@ -153,7 +159,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/xm/ShareProject/eggPractise/practise01/app/public",
+      "dir": "/Users/xm/ShareProject/eggPractise/egg/practise01/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -161,11 +167,22 @@
       "files": "<LRU>"
     },
     "view": {
-      "root": "/Users/xm/ShareProject/eggPractise/practise01/app/view",
+      "root": [
+        "/Users/xm/ShareProject/eggPractise/egg/practise01/app/view"
+      ],
       "cache": false,
       "defaultExtension": ".html",
-      "defaultViewEngine": "",
-      "mapping": {}
+      "defaultViewEngine": "nunjucks",
+      "mapping": {
+        ".tpl": "nunjucks"
+      }
+    },
+    "nunjucks": {
+      "autoescape": true,
+      "throwOnUndefined": false,
+      "trimBlocks": false,
+      "lstripBlocks": false,
+      "cache": false
     },
     "env": "local",
     "name": "practise01",
@@ -194,15 +211,16 @@
       },
       "homepage": "https://github.com/Mr-arvin/eggPractise#readme",
       "dependencies": {
-        "egg": "^2.10.0"
+        "egg": "^2.10.0",
+        "egg-view-nunjucks": "^2.2.0"
       },
       "devDependencies": {
         "egg-bin": "^4.8.3"
       }
     },
-    "baseDir": "/Users/xm/ShareProject/eggPractise/practise01",
+    "baseDir": "/Users/xm/ShareProject/eggPractise/egg/practise01",
     "HOME": "/Users/xm",
-    "rundir": "/Users/xm/ShareProject/eggPractise/practise01/run",
+    "rundir": "/Users/xm/ShareProject/eggPractise/egg/practise01/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -233,7 +251,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/xm/ShareProject/eggPractise/practise01/logs/practise01",
+      "dir": "/Users/xm/ShareProject/eggPractise/egg/practise01/logs/practise01",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -253,8 +271,8 @@
     },
     "httpclient": {
       "enableDNSCache": false,
+      "dnsCacheLookupInterval": 10000,
       "dnsCacheMaxLength": 1000,
-      "dnsCacheMaxAge": 10000,
       "request": {
         "timeout": 5000
       },
@@ -324,8 +342,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/plugin.js",
-      "path": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-session@3.1.0@egg-session",
+      "from": "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg@2.12.0@egg/config/plugin.js",
+      "path": "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-session@3.1.0@egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -337,8 +355,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/plugin.js",
-      "path": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-security@2.4.0@egg-security",
+      "from": "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg@2.12.0@egg/config/plugin.js",
+      "path": "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-security@2.4.0@egg-security",
       "version": "2.4.0"
     },
     "jsonp": {
@@ -350,8 +368,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/plugin.js",
-      "path": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-jsonp@2.0.0@egg-jsonp",
+      "from": "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg@2.12.0@egg/config/plugin.js",
+      "path": "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-jsonp@2.0.0@egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -363,8 +381,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/plugin.js",
-      "path": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-onerror@2.1.0@egg-onerror",
+      "from": "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg@2.12.0@egg/config/plugin.js",
+      "path": "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-onerror@2.1.0@egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -374,8 +392,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/plugin.js",
-      "path": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-i18n@2.0.0@egg-i18n",
+      "from": "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg@2.12.0@egg/config/plugin.js",
+      "path": "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-i18n@2.0.0@egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -385,20 +403,33 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/plugin.js",
-      "path": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-watcher@3.0.0@egg-watcher",
-      "version": "3.0.0"
+      "from": "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg@2.12.0@egg/config/plugin.js",
+      "path": "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-watcher@3.1.0@egg-watcher",
+      "version": "3.1.0"
+    },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg@2.12.0@egg/config/plugin.js",
+      "path": "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-schedule@3.4.0@egg-schedule",
+      "version": "3.4.0"
     },
     "multipart": {
       "enable": true,
       "package": "egg-multipart",
       "name": "multipart",
       "dependencies": [],
-      "optionalDependencies": [],
+      "optionalDependencies": [
+        "schedule"
+      ],
       "env": [],
-      "from": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/plugin.js",
-      "path": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-multipart@2.1.0@egg-multipart",
-      "version": "2.1.0"
+      "from": "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg@2.12.0@egg/config/plugin.js",
+      "path": "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-multipart@2.2.1@egg-multipart",
+      "version": "2.2.1"
     },
     "development": {
       "enable": true,
@@ -411,20 +442,9 @@
       "env": [
         "local"
       ],
-      "from": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/plugin.js",
-      "path": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-development@2.4.1@egg-development",
+      "from": "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg@2.12.0@egg/config/plugin.js",
+      "path": "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-development@2.4.1@egg-development",
       "version": "2.4.1"
-    },
-    "schedule": {
-      "enable": true,
-      "package": "egg-schedule",
-      "name": "schedule",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "from": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/plugin.js",
-      "path": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-schedule@3.4.0@egg-schedule",
-      "version": "3.4.0"
     },
     "logrotator": {
       "enable": true,
@@ -435,9 +455,9 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/plugin.js",
-      "path": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-logrotator@3.0.3@egg-logrotator",
-      "version": "3.0.3"
+      "from": "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg@2.12.0@egg/config/plugin.js",
+      "path": "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-logrotator@3.0.4@egg-logrotator",
+      "version": "3.0.4"
     },
     "static": {
       "enable": true,
@@ -446,8 +466,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/plugin.js",
-      "path": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-static@2.1.1@egg-static",
+      "from": "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg@2.12.0@egg/config/plugin.js",
+      "path": "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-static@2.1.1@egg-static",
       "version": "2.1.1"
     },
     "view": {
@@ -457,9 +477,23 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg@2.10.0@egg/config/plugin.js",
-      "path": "/Users/xm/ShareProject/eggPractise/practise01/node_modules/_egg-view@2.1.0@egg-view",
+      "from": "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg@2.12.0@egg/config/plugin.js",
+      "path": "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-view@2.1.0@egg-view",
       "version": "2.1.0"
+    },
+    "nunjucks": {
+      "enable": true,
+      "package": "egg-view-nunjucks",
+      "name": "nunjucks",
+      "dependencies": [
+        "security",
+        "view"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/xm/ShareProject/eggPractise/egg/practise01/config/plugin.js",
+      "path": "/Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks",
+      "version": "2.2.0"
     }
   }
 }

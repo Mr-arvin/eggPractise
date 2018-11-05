@@ -90,3 +90,182 @@
 2018-09-12 23:24:12,644 INFO 22935 [egg:core] dump config after load, 9ms
 2018-09-12 23:24:12,657 INFO 22935 [egg-watcher:app] watcher start success
 2018-09-12 23:24:12,662 INFO 22935 [egg:core] dump config after ready, 3ms
+2018-09-13 08:57:22,106 INFO 24992 [egg:logger] init all loggers with options: {"dir":"/Users/xm/ShareProject/eggPractise/egg/practise01/logs/practise01","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"practise01-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-13 08:57:22,140 INFO 24992 [egg-schedule]: register schedule /Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-logrotator@3.0.3@egg-logrotator/app/schedule/clean_log.js
+2018-09-13 08:57:22,140 INFO 24992 [egg-schedule]: register schedule /Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-logrotator@3.0.3@egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-13 08:57:22,190 INFO 24992 [egg-static] starting static serve /public/ -> /Users/xm/ShareProject/eggPractise/egg/practise01/app/public
+2018-09-13 08:57:22,193 INFO 24992 [egg-security] use csrf middleware
+2018-09-13 08:57:22,193 INFO 24992 [egg-security] use methodnoallow middleware
+2018-09-13 08:57:22,194 INFO 24992 [egg-security] use noopen middleware
+2018-09-13 08:57:22,194 INFO 24992 [egg-security] use nosniff middleware
+2018-09-13 08:57:22,194 INFO 24992 [egg-security] use xssProtection middleware
+2018-09-13 08:57:22,195 INFO 24992 [egg-security] use xframe middleware
+2018-09-13 08:57:22,195 INFO 24992 [egg-security] use dta middleware
+2018-09-13 08:57:22,195 INFO 24992 [egg-security] compose 7 middlewares into one security middleware
+2018-09-13 08:57:22,202 INFO 24992 [egg:core] dump config after load, 4ms
+2018-09-13 08:57:22,217 INFO 24992 [egg-watcher:app] watcher start success
+2018-09-13 08:57:22,221 INFO 24992 [egg:core] dump config after ready, 3ms
+2018-09-13 09:09:42,441 INFO 25031 [egg:logger] init all loggers with options: {"dir":"/Users/xm/ShareProject/eggPractise/egg/practise01/logs/practise01","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"practise01-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-13 09:09:42,470 INFO 25031 [egg-schedule]: register schedule /Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-logrotator@3.0.3@egg-logrotator/app/schedule/clean_log.js
+2018-09-13 09:09:42,470 INFO 25031 [egg-schedule]: register schedule /Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-logrotator@3.0.3@egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-13 09:09:42,505 INFO 25031 [egg-static] starting static serve /public/ -> /Users/xm/ShareProject/eggPractise/egg/practise01/app/public
+2018-09-13 09:09:42,507 INFO 25031 [egg-security] use csrf middleware
+2018-09-13 09:09:42,507 INFO 25031 [egg-security] use methodnoallow middleware
+2018-09-13 09:09:42,508 INFO 25031 [egg-security] use noopen middleware
+2018-09-13 09:09:42,508 INFO 25031 [egg-security] use nosniff middleware
+2018-09-13 09:09:42,508 INFO 25031 [egg-security] use xssProtection middleware
+2018-09-13 09:09:42,509 INFO 25031 [egg-security] use xframe middleware
+2018-09-13 09:09:42,509 INFO 25031 [egg-security] use dta middleware
+2018-09-13 09:09:42,509 INFO 25031 [egg-security] compose 7 middlewares into one security middleware
+2018-09-13 09:09:42,516 INFO 25031 [egg:core] dump config after load, 4ms
+2018-09-13 09:09:42,529 INFO 25031 [egg-watcher:app] watcher start success
+2018-09-13 09:09:42,533 INFO 25031 [egg:core] dump config after ready, 3ms
+2018-09-13 12:19:12,246 WARN 25031 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-09-13 12:39:52,628 WARN 25031 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-09-13 12:39:52,629 WARN 25031 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-09-13 13:01:48,891 WARN 25031 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-09-13 13:18:03,656 WARN 25031 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-09-13 13:37:18,651 WARN 25031 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-09-13 19:51:01,439 WARN 25031 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-09-13 20:02:39,367 WARN 25031 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-09-13 20:02:39,367 WARN 25031 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-09-13 21:57:33,453 WARN 25031 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-09-13 22:41:43,674 WARN 25031 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-20 01:10:14,742 INFO 50919 [egg:logger] init all loggers with options: {"dir":"/Users/xm/ShareProject/eggPractise/egg/practise01/logs/practise01","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"practise01-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-10-20 01:10:14,782 INFO 50919 [egg-schedule]: register schedule /Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-logrotator@3.0.3@egg-logrotator/app/schedule/clean_log.js
+2018-10-20 01:10:14,782 INFO 50919 [egg-schedule]: register schedule /Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-logrotator@3.0.3@egg-logrotator/app/schedule/rotate_by_file.js
+2018-10-20 01:10:14,936 INFO 50919 [egg-static] starting static serve /public/ -> /Users/xm/ShareProject/eggPractise/egg/practise01/app/public
+2018-10-20 01:10:14,942 INFO 50919 [egg-security] use csrf middleware
+2018-10-20 01:10:14,944 INFO 50919 [egg-security] use methodnoallow middleware
+2018-10-20 01:10:14,945 INFO 50919 [egg-security] use noopen middleware
+2018-10-20 01:10:14,947 INFO 50919 [egg-security] use nosniff middleware
+2018-10-20 01:10:14,948 INFO 50919 [egg-security] use xssProtection middleware
+2018-10-20 01:10:14,949 INFO 50919 [egg-security] use xframe middleware
+2018-10-20 01:10:14,950 INFO 50919 [egg-security] use dta middleware
+2018-10-20 01:10:14,950 INFO 50919 [egg-security] compose 7 middlewares into one security middleware
+2018-10-20 01:10:14,961 INFO 50919 [egg:core] dump config after load, 6ms
+2018-10-20 01:10:14,972 INFO 50919 [egg-watcher:app] watcher start success
+2018-10-20 01:10:14,977 INFO 50919 [egg:core] dump config after ready, 3ms
+2018-10-20 01:53:20,844 WARN 50919 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-20 02:02:04,827 INFO 52150 [egg:logger] init all loggers with options: {"dir":"/Users/xm/ShareProject/eggPractise/egg/practise01/logs/practise01","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"practise01-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-10-20 02:02:04,861 INFO 52150 [egg-schedule]: register schedule /Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-logrotator@3.0.3@egg-logrotator/app/schedule/clean_log.js
+2018-10-20 02:02:04,861 INFO 52150 [egg-schedule]: register schedule /Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-logrotator@3.0.3@egg-logrotator/app/schedule/rotate_by_file.js
+2018-10-20 02:02:04,903 INFO 52150 [egg-static] starting static serve /public/ -> /Users/xm/ShareProject/eggPractise/egg/practise01/app/public
+2018-10-20 02:02:04,905 INFO 52150 [egg-security] use csrf middleware
+2018-10-20 02:02:04,905 INFO 52150 [egg-security] use methodnoallow middleware
+2018-10-20 02:02:04,906 INFO 52150 [egg-security] use noopen middleware
+2018-10-20 02:02:04,906 INFO 52150 [egg-security] use nosniff middleware
+2018-10-20 02:02:04,906 INFO 52150 [egg-security] use xssProtection middleware
+2018-10-20 02:02:04,907 INFO 52150 [egg-security] use xframe middleware
+2018-10-20 02:02:04,907 INFO 52150 [egg-security] use dta middleware
+2018-10-20 02:02:04,907 INFO 52150 [egg-security] compose 7 middlewares into one security middleware
+2018-10-20 02:02:04,915 INFO 52150 [egg:core] dump config after load, 4ms
+2018-10-20 02:02:04,926 INFO 52150 [egg-watcher:app] watcher start success
+2018-10-20 02:02:04,930 INFO 52150 [egg:core] dump config after ready, 3ms
+2018-10-20 03:19:59,496 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-20 05:08:13,461 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-20 08:44:13,684 WARN 52150 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-10-20 08:44:13,685 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-20 10:41:35,763 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-20 12:25:38,504 WARN 52150 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-10-20 12:25:38,505 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-20 16:13:04,007 WARN 52150 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-10-20 16:13:04,008 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-20 18:01:15,503 WARN 52150 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-10-20 18:01:15,503 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-20 19:52:03,575 WARN 52150 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-10-20 19:52:03,592 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-20 20:51:30,353 WARN 52150 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-10-20 20:51:30,361 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-20 21:23:57,704 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-20 22:15:33,314 WARN 52150 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-10-20 22:15:33,314 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-21 00:01:16,223 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-21 00:55:04,450 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-21 00:57:19,440 WARN 52150 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-10-21 00:57:19,441 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-21 02:24:20,363 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-21 04:12:21,436 WARN 52150 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-10-21 04:12:21,439 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-21 06:00:27,678 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-21 07:48:35,403 WARN 52150 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-10-21 07:48:35,404 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-21 09:36:43,390 WARN 52150 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-10-21 09:36:43,395 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-21 13:12:44,181 WARN 52150 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-10-21 13:12:44,190 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-21 13:25:12,915 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-21 17:30:09,691 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-21 17:41:27,949 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-21 18:16:45,446 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-21 19:13:56,091 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-21 19:16:08,088 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-21 20:13:18,834 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-21 20:56:19,117 WARN 52150 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-10-21 20:56:19,117 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-21 21:33:09,412 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-21 22:09:52,327 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-21 23:05:37,242 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-10-21 23:57:58,880 WARN 52150 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-11-05 11:14:17,355 INFO 65143 [egg:logger] init all loggers with options: {"dir":"/Users/xm/ShareProject/eggPractise/egg/practise01/logs/practise01","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"practise01-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-05 11:14:17,393 INFO 65143 [egg-schedule]: register schedule /Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-logrotator@3.0.3@egg-logrotator/app/schedule/clean_log.js
+2018-11-05 11:14:17,393 INFO 65143 [egg-schedule]: register schedule /Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-logrotator@3.0.3@egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-05 11:14:17,482 INFO 65143 [egg-static] starting static serve /public/ -> /Users/xm/ShareProject/eggPractise/egg/practise01/app/public
+2018-11-05 11:14:17,485 INFO 65143 [egg-security] use csrf middleware
+2018-11-05 11:14:17,487 INFO 65143 [egg-security] use methodnoallow middleware
+2018-11-05 11:14:17,488 INFO 65143 [egg-security] use noopen middleware
+2018-11-05 11:14:17,489 INFO 65143 [egg-security] use nosniff middleware
+2018-11-05 11:14:17,490 INFO 65143 [egg-security] use xssProtection middleware
+2018-11-05 11:14:17,491 INFO 65143 [egg-security] use xframe middleware
+2018-11-05 11:14:17,492 INFO 65143 [egg-security] use dta middleware
+2018-11-05 11:14:17,492 INFO 65143 [egg-security] compose 7 middlewares into one security middleware
+2018-11-05 11:14:17,502 INFO 65143 [egg:core] dump config after load, 5ms
+2018-11-05 11:14:17,517 INFO 65143 [egg-watcher:app] watcher start success
+2018-11-05 11:14:17,521 INFO 65143 [egg:core] dump config after ready, 3ms
+2018-11-05 11:16:52,819 INFO 65180 [egg:logger] init all loggers with options: {"dir":"/Users/xm/ShareProject/eggPractise/egg/practise01/logs/practise01","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"practise01-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-05 11:16:52,853 INFO 65180 [egg-schedule]: register schedule /Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-logrotator@3.0.3@egg-logrotator/app/schedule/clean_log.js
+2018-11-05 11:16:52,853 INFO 65180 [egg-schedule]: register schedule /Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-logrotator@3.0.3@egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-05 11:16:52,899 INFO 65180 [egg-static] starting static serve /public/ -> /Users/xm/ShareProject/eggPractise/egg/practise01/app/public
+2018-11-05 11:16:52,901 INFO 65180 [egg-security] use csrf middleware
+2018-11-05 11:16:52,902 INFO 65180 [egg-security] use methodnoallow middleware
+2018-11-05 11:16:52,902 INFO 65180 [egg-security] use noopen middleware
+2018-11-05 11:16:52,903 INFO 65180 [egg-security] use nosniff middleware
+2018-11-05 11:16:52,903 INFO 65180 [egg-security] use xssProtection middleware
+2018-11-05 11:16:52,903 INFO 65180 [egg-security] use xframe middleware
+2018-11-05 11:16:52,903 INFO 65180 [egg-security] use dta middleware
+2018-11-05 11:16:52,903 INFO 65180 [egg-security] compose 7 middlewares into one security middleware
+2018-11-05 11:16:52,911 INFO 65180 [egg:core] dump config after load, 4ms
+2018-11-05 11:16:52,924 INFO 65180 [egg-watcher:app] watcher start success
+2018-11-05 11:16:52,929 INFO 65180 [egg:core] dump config after ready, 3ms
+2018-11-05 11:21:54,941 INFO 66418 [egg:logger] init all loggers with options: {"dir":"/Users/xm/ShareProject/eggPractise/egg/practise01/logs/practise01","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"practise01-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-05 11:21:54,973 INFO 66418 [egg-schedule]: register schedule /Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-logrotator@3.0.3@egg-logrotator/app/schedule/clean_log.js
+2018-11-05 11:21:54,973 INFO 66418 [egg-schedule]: register schedule /Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-logrotator@3.0.3@egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-05 11:21:55,014 INFO 66418 [egg-static] starting static serve /public/ -> /Users/xm/ShareProject/eggPractise/egg/practise01/app/public
+2018-11-05 11:21:55,016 INFO 66418 [egg-security] use csrf middleware
+2018-11-05 11:21:55,016 INFO 66418 [egg-security] use methodnoallow middleware
+2018-11-05 11:21:55,017 INFO 66418 [egg-security] use noopen middleware
+2018-11-05 11:21:55,017 INFO 66418 [egg-security] use nosniff middleware
+2018-11-05 11:21:55,017 INFO 66418 [egg-security] use xssProtection middleware
+2018-11-05 11:21:55,018 INFO 66418 [egg-security] use xframe middleware
+2018-11-05 11:21:55,018 INFO 66418 [egg-security] use dta middleware
+2018-11-05 11:21:55,018 INFO 66418 [egg-security] compose 7 middlewares into one security middleware
+2018-11-05 11:21:55,025 INFO 66418 [egg:core] dump config after load, 4ms
+2018-11-05 11:21:55,040 INFO 66418 [egg-watcher:app] watcher start success
+2018-11-05 11:21:55,044 INFO 66418 [egg:core] dump config after ready, 3ms
+2018-11-05 11:39:24,884 INFO 66761 [egg:logger] init all loggers with options: {"dir":"/Users/xm/ShareProject/eggPractise/egg/practise01/logs/practise01","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"practise01-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-05 11:39:24,911 INFO 66761 [egg-schedule]: register schedule /Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-logrotator@3.0.4@egg-logrotator/app/schedule/clean_log.js
+2018-11-05 11:39:24,911 INFO 66761 [egg-schedule]: register schedule /Users/xm/ShareProject/eggPractise/egg/practise01/node_modules/_egg-logrotator@3.0.4@egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-05 11:39:24,912 INFO 66761 [egg-multipart] stream mode enable
+2018-11-05 11:39:24,946 INFO 66761 [egg-static] starting static serve /public/ -> /Users/xm/ShareProject/eggPractise/egg/practise01/app/public
+2018-11-05 11:39:24,948 INFO 66761 [egg-security] use csrf middleware
+2018-11-05 11:39:24,949 INFO 66761 [egg-security] use methodnoallow middleware
+2018-11-05 11:39:24,949 INFO 66761 [egg-security] use noopen middleware
+2018-11-05 11:39:24,949 INFO 66761 [egg-security] use nosniff middleware
+2018-11-05 11:39:24,950 INFO 66761 [egg-security] use xssProtection middleware
+2018-11-05 11:39:24,950 INFO 66761 [egg-security] use xframe middleware
+2018-11-05 11:39:24,950 INFO 66761 [egg-security] use dta middleware
+2018-11-05 11:39:24,950 INFO 66761 [egg-security] compose 7 middlewares into one security middleware
+2018-11-05 11:39:24,957 INFO 66761 [egg:core] dump config after load, 4ms
+2018-11-05 11:39:24,968 INFO 66761 [egg-watcher:application] watcher start success
+2018-11-05 11:39:24,976 INFO 66761 [egg:core] dump config after ready, 6ms
+2018-11-05 11:39:30,059 INFO 66761 [egg-view-nunjucks] loading templates from ["/Users/xm/ShareProject/eggPractise/egg/practise01/app/view"]

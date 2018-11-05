@@ -5,4 +5,5 @@ module.exports = app => {
     router.get("/about", controller.home.about);
     router.get("/get", controller.home.get);
     router.get("/getid/:id", controller.home.getId);
+    router.get("/news", controller.news.list);
 }
